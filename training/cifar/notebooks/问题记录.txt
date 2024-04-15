@@ -1,0 +1,6 @@
+# 问题-1 如果出现无法pip install mpi4py，则根据下面的流程操作，即可安装
+
+sudo apt-get update
+sudo apt-get install libopenmpi-dev
+pip install mpi4py
+
